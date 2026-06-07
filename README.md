@@ -46,7 +46,7 @@ Aplikasi manajemen laundry berbasis web menggunakan **Laravel 11** dan **Tabler 
 
 ### Langkah Instalasi
 
-``
+```bash
 # 1. Clone repository
 git clone https://github.com/azisaputra18/LaundryKu.git
 cd LaundryKu
@@ -70,6 +70,8 @@ php artisan migrate:fresh --seed
 
 # 7. Jalankan server
 php artisan serve
+```
+
 Buka browser: `http://127.0.0.1:8000`
 
 ---
@@ -81,7 +83,7 @@ Buka browser: `http://127.0.0.1:8000`
 | Kasir | kasir@laundryku.com | Kasir123 |
 
 ---
-
+```
 ## 📁 Struktur Folder
 laundry-app/
 ├── app/
@@ -95,8 +97,8 @@ laundry-app/
 ├── resources/
 │   └── views/               # Blade templates (Tabler UI)
 └── routes/
-└── web.php              # Route aplikasi
-
+└── web.php                  # Route aplikasi
+```
 ---
 
 ### 📸 Screenshot
