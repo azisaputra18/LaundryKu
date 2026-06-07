@@ -119,4 +119,4 @@ laundry-app/
 
 ## 📄 License
 
-MIT License © 2026 [Azis Aputra](https://github.com/azisaputra18)
+MIT License © 2026 [Azi Saputra](https://github.com/azisaputra18)
