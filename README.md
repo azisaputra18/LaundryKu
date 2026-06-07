@@ -1,14 +1,11 @@
-Kode README.md-nya:
-
-```markdown
 # 🧺 LaundryKu — Sistem Manajemen Laundry
 
 Aplikasi manajemen laundry berbasis web menggunakan **Laravel 11** dan **Tabler UI**.
 
-![Laravel](https://img.shields.io/badge/Laravel-11-red?logo=laravel)
-![PHP](https://img.shields.io/badge/PHP-8.3-blue?logo=php)
-![Tabler](https://img.shields.io/badge/UI-Tabler-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
+![Laravel](https://img.shields.io/badge/Laravel-13-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-8.3-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 ---
 
@@ -73,58 +70,3 @@ php artisan migrate:fresh --seed
 
 # 7. Jalankan server
 php artisan serve
-```
-
-Buka browser: `http://127.0.0.1:8000`
-
----
-
-## 👤 Akun Default
-
-| Role | Email | Password |
-|------|-------|----------|
-| Admin | admin@laundryku.com | Admin123 |
-| Kasir | kasir@laundryku.com | Kasir123 |
-
----
-
-## 📁 Struktur Folder
-
-```
-laundry-app/
-├── app/
-│   ├── Http/
-│   │   ├── Controllers/     # AuthController, OrderController, dll
-│   │   └── Middleware/      # RoleMiddleware
-│   └── Models/              # User, Order, Pelanggan, dll
-├── database/
-│   ├── migrations/          # Struktur tabel
-│   └── seeders/             # Data awal
-├── resources/
-│   └── views/               # Blade templates (Tabler UI)
-└── routes/
-    └── web.php              # Route aplikasi
-```
-
----
-
-## 📸 Screenshot
-
-> Dashboard
-<img width="1855" height="930" alt="image" src="https://github.com/user-attachments/assets/e82a81ff-22d1-4d20-a52f-57e5ce9463f4" />
-
->  Order
-<img width="1918" height="930" alt="image" src="https://github.com/user-attachments/assets/185fa3eb-6e2f-4e3a-8f64-49c897e96ce0" />
-
-> Laporan
-<img width="1918" height="925" alt="image" src="https://github.com/user-attachments/assets/9f51924b-bfd9-40c8-96b7-3f664f15cdb9" />
-
-> 
-
----
-
-## 📄 License
-
-MIT License © 2026 [Azis Aputra](https://github.com/azisaputra18)
-```
-
